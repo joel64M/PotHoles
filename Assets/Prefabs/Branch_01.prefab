@@ -11,8 +11,7 @@ GameObject:
   - component: {fileID: 4086384370061917250}
   - component: {fileID: 4086384370058525794}
   - component: {fileID: 4086384370059493026}
-  - component: {fileID: 8286140125593979602}
-  - component: {fileID: 2865663754381388516}
+  - component: {fileID: 954232168934443332}
   m_Layer: 0
   m_Name: Branch_01
   m_TagString: Untagged
@@ -80,21 +79,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &8286140125593979602
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4086384370061418594}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 5528351815fd4c04abf537f22c7e18f1, type: 3}
---- !u!114 &2865663754381388516
+--- !u!114 &954232168934443332
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -103,6 +88,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4086384370061418594}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fa729943039e447785033f12cfbcc90, type: 3}
+  m_Script: {fileID: 11500000, guid: 044475f33b67d40c8a18367a0738c03b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tag: 0

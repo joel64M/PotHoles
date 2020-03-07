@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1967891963515776506}
   - component: {fileID: 2466387465758180983}
   - component: {fileID: 5118987641411429061}
-  - component: {fileID: 8801423100705440693}
+  - component: {fileID: 4564497489013931369}
   m_Layer: 0
   m_Name: Fence Type2 03 (2)
   m_TagString: Untagged
@@ -93,7 +93,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.6643157, y: 1.3857071, z: 0.19823581}
   m_Center: {x: -1.2349062, y: 0.6858665, z: 0.0036785975}
---- !u!114 &8801423100705440693
+--- !u!114 &4564497489013931369
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -102,9 +102,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2054526883340987607}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 704b76d29d64a43a7a4f209ef328bc3a, type: 3}
+  m_Script: {fileID: 11500000, guid: 044475f33b67d40c8a18367a0738c03b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tag: 1
 --- !u!1 &2135951684474366793
 GameObject:
   m_ObjectHideFlags: 0
