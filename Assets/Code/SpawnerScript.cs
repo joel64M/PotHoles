@@ -30,7 +30,7 @@ namespace potholes
 
         Vector3 currentFencePos = Vector3.zero;
         Vector3 currentPropPos = new Vector3(6f, 0f, -5f);
-        Vector3 currentRoadPos = Vector3.zero;
+        Vector3 currentRoadPos = new Vector3(0,0, 8.96f);
         Vector3 currentGroundPos = Vector3.zero;
 
         int fenceIndex = 0;
@@ -128,11 +128,11 @@ namespace potholes
             float x;
             if (y >= 5)
             {
-                x = Random.Range(5.5f, 9f);
+                x = Random.Range(5.5f, 11f);
             }
             else
             {
-                x = Random.Range(-9f, -5.5f);
+                x = Random.Range(-11f, -5.5f);
 
             }
             float z = Random.Range(1.2f, 2f);

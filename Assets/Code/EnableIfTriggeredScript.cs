@@ -5,6 +5,8 @@ using UnityEngine;
 public class EnableIfTriggeredScript : MonoBehaviour
 {
     MeshRenderer mr;
+    public GameObject one;
+
     private void Start()
     {
         mr = GetComponent<MeshRenderer>();
@@ -15,6 +17,8 @@ public class EnableIfTriggeredScript : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             mr.enabled = true;
+            GameManagerScript.instance.IncrementScore();
+            Instantiate(one,  this.transform.position, Quaternion.identity);
         }
     }
     private void OnBecameInvisible()
